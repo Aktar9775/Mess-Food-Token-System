@@ -1,0 +1,38 @@
+.mess-menu {
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #ffc107; /* Warm yellow */
+  color: #fff;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-body {
+  background-color: #fff9e6;
+  padding: 15px;
+}
+
+.card-body p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}

@@ -1,0 +1,19 @@
+.why{
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #6a481136;
+}
+.why span{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.ele span{
+  font-size: 20px;
+  color: white;
+}
+.ele p{
+  font-size: 15px;
+
+}

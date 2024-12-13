@@ -1,0 +1,16 @@
+
+h3{
+  margin-top: 200px;
+  color: white;
+}
+h1{
+  font-weight: bold;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imgThali{
+  transform: rotate(20deg);
+}

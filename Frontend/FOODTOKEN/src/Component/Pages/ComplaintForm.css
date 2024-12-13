@@ -1,0 +1,27 @@
+.complaint-form {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f6f8f9;
+}
+
+.feed {
+
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+button {
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.alert {
+  font-size: 1rem;
+  text-align: center;
+}

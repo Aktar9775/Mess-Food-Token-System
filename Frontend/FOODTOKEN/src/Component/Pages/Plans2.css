@@ -1,0 +1,44 @@
+.element2{
+  text-align: center;
+  margin-top: 50px;
+}
+.element2 span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.plans2-left{
+  border-radius: 50px 0 50px 0;
+  /* background-color: rgba(255, 0, 0, 0.168); */
+  background-image: linear-gradient(to right,rgb(238, 234, 11),rgba(247, 247, 212, 0.39));
+  text-align: left;
+  padding-left: 50px;
+  margin: 5px;
+}
+.plans2-right{
+  border-radius: 50px 0 50px 0;
+  /* background-color: rgba(255, 0, 0, 0.168); */
+  background-image: linear-gradient(to right,rgba(247, 247, 212, 0.39),rgb(238, 234, 11));
+  text-align: left;
+  padding-left: 50px;
+  margin: 5px;
+}
+.plans2-left:hover{
+  transform: scale(1.03);
+  background-color: #ffe4b5;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor:pointer;
+}
+.plans2-right:hover{
+  transform: scale(1.03);
+  background-color: #ffe4b5;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor:pointer;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .col {
+    max-width: 90%;
+  }
+}

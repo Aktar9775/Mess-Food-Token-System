@@ -1,0 +1,79 @@
+.token {
+  width: 90%;
+  max-width: 300px;
+  padding: 10px;
+  border: 2px dashed rgb(217, 84, 84);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.token:hover {
+  transform: scale(1.05);
+}
+
+.barcode {
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.barcode-icon {
+  width: 100px;
+  height: 100px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg");
+  padding-right: 10px; /* Add padding to the right */
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 75px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px; /* Add padding to the right */
+  box-sizing: border-box;
+}
+
+.snack-icon {
+  background-image: url("https://img.freepik.com/free-vector/breakfast-icons-flat-set_1284-34007.jpg");
+}
+
+.meal-icon {
+  background-image: url("https://img.freepik.com/free-vector/healthy-vegetable-salad-plate_1308-169927.jpg");
+}
+
+.cake-icon {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/051/973/426/non_2x/overhead-view-of-a-luxury-festive-christmas-meal-dinner-plate-with-decorations-vector.jpg");
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.details p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Modal custom styling */
+.modal-dialog {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-header,
+.modal-body {
+  color: white;
+}
+

@@ -1,0 +1,91 @@
+.element{
+  text-align: center;
+  margin-top: 50px;
+}
+.element span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.plans-left{
+  border-radius: 50px 0 50px 0;
+  /* background-color: rgba(255, 0, 0, 0.168); */
+  background-image: linear-gradient(to right,rgb(238, 234, 11),rgba(81, 243, 94, 0.39));
+  text-align: left;
+  padding-left: 50px;
+  margin: 5px;
+}
+.plans-right{
+  border-radius: 50px 0 50px 0;
+  /* background-color: rgba(255, 0, 0, 0.168); */
+  background-image: linear-gradient(to right,rgba(81, 243, 94, 0.39),rgb(238, 234, 11));
+  text-align: left;
+  padding-left: 50px;
+  margin: 5px;
+}
+.plans-left:hover{
+  transform: scale(1.03);
+  background-color: #ffe4b5;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor:pointer;
+}
+.plans-right:hover{
+  transform: scale(1.03);
+  background-color: #ffe4b5;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor:pointer;
+  transition: 0.3s;
+}
+/* Modal customization */
+.modal-dialog {
+  max-width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-content {
+  border-radius: 10px;
+  background: linear-gradient(to right, #6be173, #fffacd);
+}
+
+.modal-header {
+  background-color: #ffa500;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.modal-body p {
+  font-size: 1.2rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transition: 0.3s;
+}
+
+.btn-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .col {
+    max-width: 90%;
+  }
+}

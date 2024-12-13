@@ -1,0 +1,20 @@
+.foodCat {
+  text-align: center;
+  margin-top: 90px;
+}
+.foodCat span{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.smcard .col{
+  margin: 5px;
+  padding: 7px;
+  background-color: #6a481136;
+  color: white;
+  border-radius: 20px;
+}
+.smcard .col:hover{
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,10 @@
+.sidebar .btn.active {
+  font-weight: bold;
+  color:yellow;
+  background-color: #0d6efd
+}
+.sidebar .btn {
+  width: 100%;
+  padding: 10px;
+  color: #000;
+}
